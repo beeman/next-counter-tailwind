@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@reference-next/anchor": ["anchor/src"],
+      "@template-next-tailwind-counter/anchor": ["anchor/src"],
       "@/*": ["./src/*"]
     }
   },

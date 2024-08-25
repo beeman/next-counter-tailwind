@@ -1,6 +1,6 @@
 'use client'
 
-import { getCounterProgram, getCounterProgramId } from '@reference-next/anchor'
+import { getCounterProgram, getCounterProgramId } from '@template-next-tailwind-counter/anchor'
 import { Program } from '@coral-xyz/anchor'
 import { useConnection } from '@solana/wallet-adapter-react'
 import { Cluster, Keypair, PublicKey } from '@solana/web3.js'
