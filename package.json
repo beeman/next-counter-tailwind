@@ -45,22 +45,16 @@
   },
   "init": {
     "anchorVersion": "0.30.1",
-    "removeAfterInit": true,
     "rename": {
       "counter": {
         "to": "{{name}}",
         "paths": [ "anchor", "src" ]
       }
     },
-    "run": [
-      "echo 'Hello, from init!'",
-      "echo 'This is your new Solana dApp.'",
-      "echo 'To get started, run:'",
-      "echo '  pnpm dev'",
-      "echo 'To build your app:'",
-      "echo '  pnpm build'",
-      "echo 'To deploy your app:'",
-      "echo '  pnpm deploy'"
+    "instructions": [
+      "Run Anchor commands:",
+      "",
+      "+pnpm run anchor build | test | localnet | deploy"
     ]
   },
   "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
