@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@template-next-tailwind-counter/anchor": ["anchor/src"],
+      "@project/anchor": ["anchor/src"],
       "@/*": ["./src/*"]
     }
   },

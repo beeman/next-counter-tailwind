@@ -1,15 +1,14 @@
 'use client'
 
-import { getCounterProgram, getCounterProgramId } from '@template-next-tailwind-counter/anchor'
-import { Program } from '@coral-xyz/anchor'
-import { useConnection } from '@solana/wallet-adapter-react'
-import { Cluster, Keypair, PublicKey } from '@solana/web3.js'
-import { useMutation, useQuery } from '@tanstack/react-query'
-import { useMemo } from 'react'
+import {getCounterProgram, getCounterProgramId} from '@project/anchor'
+import {useConnection} from '@solana/wallet-adapter-react'
+import {Cluster, Keypair, PublicKey} from '@solana/web3.js'
+import {useMutation, useQuery} from '@tanstack/react-query'
+import {useMemo} from 'react'
 import toast from 'react-hot-toast'
-import { useCluster } from '../cluster/cluster-data-access'
-import { useAnchorProvider } from '../solana/solana-provider'
-import { useTransactionToast } from '../ui/ui-layout'
+import {useCluster} from '../cluster/cluster-data-access'
+import {useAnchorProvider} from '../solana/solana-provider'
+import {useTransactionToast} from '../ui/ui-layout'
 
 export function useCounterProgram() {
   const { connection } = useConnection()
