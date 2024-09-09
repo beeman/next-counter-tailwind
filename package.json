@@ -52,7 +52,7 @@
     },
     "instructions": [
       "Run Anchor commands:",
-      "+pnpm run anchor build | test | localnet | deploy"
+      "+{pm} run anchor build | test | localnet | deploy"
     ],
     "versions": {
       "anchor": "0.30.1",
